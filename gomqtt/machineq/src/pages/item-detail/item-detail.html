@@ -1,0 +1,71 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ item.name }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <!--<div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">-->
+  <!--</div>-->
+
+  <!--<div class="item-detail" padding>-->
+    <!--<h2>{{item.name}}</h2>-->
+    <!--<p>{{item.about}}</p>-->
+  <!--</div>-->
+  <ion-card>
+    <img class="item-picture" [src]="item.picture"/>
+    <ion-row>
+      <ion-col align-items-center>
+        <button ion-button icon-left color="secondary" full>
+          <ion-icon name="md-play"></ion-icon>
+          <div>Start</div>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-card-content>
+        <ion-row>
+          <ion-col>
+            <ion-card-title>
+              {{ item.name }}
+            </ion-card-title>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col col-8>
+            <p>
+              {{ item.about }}
+            </p>
+          </ion-col>
+          <ion-col col-4>
+            <ion-icon *ngIf="item.note" name="md-alert" item-start></ion-icon> {{ item.note }}
+          </ion-col>
+        </ion-row>
+
+    </ion-card-content>
+
+    <ion-row>
+      <ion-col align-items-center>
+        <button ion-button icon-left clear>
+          <ion-icon name="md-create"></ion-icon>
+          <div>Edit</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear >
+          <ion-icon name="md-settings"></ion-icon>
+          <div>Settings</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear >
+          <ion-icon name="md-more"></ion-icon>
+          <div>More</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

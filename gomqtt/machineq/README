@@ -1,0 +1,6 @@
+Run 'ionic start' on your local machine in a separate folder outside gomqtt
+Select 'super' when prompted for starting template
+Select y for cordova and N for Ionic Pro
+Run ionic serve -c to start
+After changes are made in 'src' and 'www', copy the whole folders and replace the old ones
+Commit and push

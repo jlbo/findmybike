@@ -1,0 +1,47 @@
+{
+    "Time": "2018-04-14T23:11:55.829Z",
+    "DecoderType": "Unknown",
+    "DevEUI": "4ED909C55E57B9F7",
+    "DevAddr": "12006B9E",
+    "FPort": "1",
+    "FCntUp": "4",
+    "ADRbit": "1",
+    "MessageType": "2",
+    "FCntDn": "20",
+    "payload_hex": "032f23",
+    "decoded_payload": {
+        "RawData": "032f23"
+    },
+    "mic_hex": "b0d9a080",
+    "GatewayRSSI": "-104.000000",
+    "GatewaySNR": "-3.750000",
+    "SpreadingFactor": "10",
+    "SubBand": "G20",
+    "Channel": "LC21",
+    "GatewayCount": "3",
+    "GatewayID": "DA0040C8",
+    "Late": "0",
+    "GatewayLAT": "39.954979",
+    "GatewayLON": "-75.168633",
+    "BatteryLevel": "",
+    "GatewayList": [
+        {
+            "GatewayID": "DA0040C8",
+            "GatewayRSSI": "-104.000000",
+            "GatewaySNR": "-3.750000",
+            "GatewayESP": "-109.278069"
+        },
+        {
+            "GatewayID": "DA004116",
+            "GatewayRSSI": "-111.000000",
+            "GatewaySNR": "-12.250000",
+            "GatewayESP": "-123.501282"
+        },
+        {
+            "GatewayID": "DA0051C7",
+            "GatewayRSSI": "-127.000000",
+            "GatewaySNR": "-14.750000",
+            "GatewayESP": "-141.893097"
+        }
+    ]
+}
